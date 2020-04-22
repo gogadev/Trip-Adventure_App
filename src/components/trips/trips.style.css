@@ -1,0 +1,74 @@
+.trips {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  margin: 0.5rem auto;
+}
+
+.main-title {
+  letter-spacing: 11px;
+  font-size: 1.4rem;
+  color: rgba(0, 0, 0, 0.7);
+  word-spacing: 0.3rem;
+  margin: 0.3rem auto;
+}
+
+.card {
+  margin: 0 auto;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin: 1rem auto;
+}
+
+.filter {
+  display: flex;
+  justify-content: space-evenly;
+  justify-items: center;
+  width: 75vw;
+  background: lightcyan;
+  letter-spacing: 3px;
+  font-size: 1.2rem;
+  transform: translate(2.9rem);
+  padding: 0.1rem;
+  margin: 0.4rem auto;
+  color: grey;
+}
+
+.filter-title {
+  margin-left: 8.5rem;
+  letter-spacing: 6px;
+}
+
+.americas {
+  margin-left: 1rem;
+}
+
+.link {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: repeat(7, 1fr);
+  letter-spacing: 6px;
+  word-spacing: 1rem;
+  margin: 0 auto;
+}
+
+.image {
+  width: 3%;
+  opacity: 0.5;
+}
+
+.arrow {
+  width: 2%;
+  margin-left: 3.5rem;
+  opacity: 0.6;
+}
+
+.trips {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  margin: 0 auto;
+}

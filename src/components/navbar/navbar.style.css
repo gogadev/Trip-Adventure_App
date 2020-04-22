@@ -1,0 +1,39 @@
+nav {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  margin: 1.3rem auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.2rem;
+  letter-spacing: 3px;
+  font-weight: 100;
+  color: grey;
+  text-shadow: 1px 1px black;
+}
+
+.title span {
+  font-size: 2.7rem;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  width: 75vw;
+  background: lightcyan;
+  outline: 1px dotted lightblue;
+  outline-offset: -6px;
+  padding: 0.5rem;
+  border: 1px solid lightgrey;
+  letter-spacing: 3px;
+  margin-left: 5.8rem;
+  font-size: 1.3rem;
+  color: grey;
+  word-spacing: 0.5rem;
+}
+
+.nav-img {
+  width: 16%;
+}

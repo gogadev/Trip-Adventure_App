@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=Orbitron&display=swap");
+
+.trip {
+  width: 15vw;
+  outline: 1px solid lightgrey;
+  margin: 0.4rem auto;
+  padding: 0.5rem;
+  text-align: center;
+  border-right: 4px double lightgrey;
+  transform: translate(2.9rem);
+}
+
+.details {
+  margin: 0.5rem auto;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  padding: 0.1rem;
+}
+
+.place {
+  width: 100%;
+  background: lightcyan;
+  border: 1px solid lightgrey;
+}
+
+.date {
+  border-bottom: 1px solid lightgrey;
+}
+
+.type {
+  font-family: "Orbitron", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+
+.delete-btn {
+  padding: 0.1rem 0.5rem;
+  border: 1px solid lightgrey;
+  cursor: pointer;
+  outline: 0;
+}

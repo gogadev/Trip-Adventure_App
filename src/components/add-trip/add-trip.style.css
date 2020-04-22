@@ -1,0 +1,56 @@
+.add-trip {
+  width: 70vw;
+  display: grid;
+  justify-content: center;
+  justify-content: center;
+  margin: 0.5rem auto;
+  text-align: center;
+}
+
+.form {
+  width: 100%;
+  display: grid;
+}
+
+.form input {
+  width: 60vw;
+  margin: 1rem auto;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  padding: 0.2rem;
+  color: grey;
+}
+
+.form input::placeholder {
+  text-align: center;
+}
+
+.title-input {
+  outline: 0;
+  letter-spacing: 1px;
+  border: none;
+  border-bottom: 1px solid lightgrey;
+}
+
+.select {
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  color: grey;
+}
+
+.trip-icon {
+  width: 5%;
+  margin: 0.5rem auto;
+}
+
+.btn {
+  margin: 0.9rem auto;
+  width: 10%;
+  font-size: 1.1rem;
+  letter-spacing: 5px;
+  padding: 0.2rem;
+  cursor: pointer;
+  color: grey;
+  background: lightcyan;
+  border: 1px solid lightgrey;
+}

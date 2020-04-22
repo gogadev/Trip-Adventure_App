@@ -1,0 +1,40 @@
+.trips-count {
+  width: 75vw;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  margin: 0.2rem auto;
+  text-align: center;
+}
+
+.total {
+  margin: 0.1rem auto;
+}
+
+.globe {
+  width: 12%;
+  margin: 0.5rem auto;
+}
+
+.count {
+  background: #f6f6f6;
+  text-align: center;
+  transform: translateX(3rem);
+  padding: 0.9rem;
+  outline: 1px dotted grey;
+  outline-offset: -10px;
+  border: 1px solid lightgrey;
+}
+
+.subtitle {
+  width: 73vw;
+  letter-spacing: 7px;
+  font-size: 0.9rem;
+  margin: 0 auto;
+  color: grey;
+  transform: translateX(-3rem);
+}
+
+.xs {
+  font-size: 2rem;
+}

@@ -1,0 +1,16 @@
+.error-page {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  margin: 0.3rem auto;
+}
+
+.error-title {
+  letter-spacing: 5px;
+  color: grey;
+  margin-bottom: 0.9rem;
+}
+
+.error-img {
+  width: 80%;
+}
